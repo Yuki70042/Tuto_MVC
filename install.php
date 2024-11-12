@@ -194,7 +194,15 @@ try {
                     //Création d'une table Table(id, champ1, champ2)
                     $rqt = "CREATE TABLE $BDD.Table (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, champ1 VARCHAR(255), champ2 VARCHAR(255));";
                     $instancePdo->query($rqt);
+                    echo "Table 'Table' créée.\n";
+
+                    // Création de la table utilisateur (id, nom, prenom, motDePasse)
+                    $rqt = "CREATE TABLE $BDD.utilisateur (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,nom VARCHAR(255) NOT NULL,prenom VARCHAR(255) NOT NULL,motDePasse VARCHAR(255) NOT NULL);";
+                    $instancePdo->query($rqt);
+                    echo "Table 'utilisateur' créée.\n";
                     $test = true;
+
+
                 } catch (PDOException $e) {
                     echo $e->getMessage();
                     echo "\n";

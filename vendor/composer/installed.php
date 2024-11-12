@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'vendor_name/cafe',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '08b0ada3b947da3a0af01d1af48a15962e4efbe6',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '476ce685d76abe290f6734681a256e5430041ee9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'vendor_name/cafe' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '08b0ada3b947da3a0af01d1af48a15962e4efbe6',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '476ce685d76abe290f6734681a256e5430041ee9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
